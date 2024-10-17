@@ -1,0 +1,1632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		73EFA43E42594DC7AFC5FDB8 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 382E4CEDFA614DD5A6B6FFEA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D21EF198DD58E81322AFD127 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				D5732ADA8D164CE3B2632FB4 /* PBXTargetDependency */,
+				0F91D821C07249AFA758D120 /* PBXTargetDependency */,
+				BC9E0AA4228C4D98871BCD6F /* PBXTargetDependency */,
+				706DFE269F244C8885F35AA6 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		D8997A8BDE5E48E589734E4C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1252FBF42F45490D857FAAA3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				636035986EA4FCAD88E673B3 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		062195513B4B4C16947AFCE4 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/post_processing.fs */ = {isa = PBXBuildFile; fileRef = C2DF8ABA4BA94109B5835D34 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/post_processing.fs */; };
+		074D7256961441F7988B1BFE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/shader.cpp */ = {isa = PBXBuildFile; fileRef = 5364604A9CFA4D04B0FC2781 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/shader.cpp */; };
+		0EF5CF8798A7440E862FDE1E /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/TextShader.fs */ = {isa = PBXBuildFile; fileRef = E869F1B70C3141DA85105566 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/TextShader.fs */; };
+		104EC10784FC40F5BC935273 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/filesystem.h */ = {isa = PBXBuildFile; fileRef = 26DF38CD39E847A9B4A436FC /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/filesystem.h */; };
+		11752F33CD094F10AFD11A40 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/moving.vs */ = {isa = PBXBuildFile; fileRef = 503006010ADA43139D5F9744 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/moving.vs */; };
+		1976320A5BEF4D12A9ED2737 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/program.cpp */ = {isa = PBXBuildFile; fileRef = B42A7B5AB9A54794BEF8FC8B /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/program.cpp */; };
+		1DC39684DE254293963978E5 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/texture.cpp */ = {isa = PBXBuildFile; fileRef = 21951586F98B4B70B90D1152 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/texture.cpp */; };
+		1F0FE9CA0D484E26AD4DE0A7 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 276EEE81930D4BA3813B0578 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/CMakeLists.txt */; };
+		21FDDD95DD0E4B5385D1A02A /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/pen_clip.h */ = {isa = PBXBuildFile; fileRef = AE0CDE491E644066B6462CD5 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/pen_clip.h */; };
+		2538C4C30C4F4F72893C385F /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game_level.cpp */ = {isa = PBXBuildFile; fileRef = 73FE31DC6D844DF2A1C387CE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game_level.cpp */; };
+		28D9DE92BA0643A0ACF828CE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sphere.h */ = {isa = PBXBuildFile; fileRef = D90B5AAE2DE9435FAF781A2E /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sphere.h */; };
+		2CF1E7354FF842B0A4397FFE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sprite_renderer.h */ = {isa = PBXBuildFile; fileRef = 7D6143E1D73245FDBB40CCA2 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sprite_renderer.h */; };
+		2D1CCD1004554DFF813A8CBE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/vertical_scroll.vs */ = {isa = PBXBuildFile; fileRef = DE7B4C0A8F4541A98C28EEAD /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/vertical_scroll.vs */; };
+		311AAC2C0E284A32BE9CD6A6 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/objects.h */ = {isa = PBXBuildFile; fileRef = 8EDA4EA71F334E8D926979B8 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/objects.h */; };
+		326F09B3AFD64286A4DE2EAC /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game.cpp */ = {isa = PBXBuildFile; fileRef = 7818AEB31C884A51883C75B1 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game.cpp */; };
+		3439180872FB4FEB8CE4F907 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game_level.h */ = {isa = PBXBuildFile; fileRef = 6289D11DF5184ECCBA94C762 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game_level.h */; };
+		3629651E77B348FDAD1E4313 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/model.h */ = {isa = PBXBuildFile; fileRef = 3B304CAAA588411BAFE592EF /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/model.h */; };
+		40153EE04FF041AE9F8CF3D5 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/objects.cpp */ = {isa = PBXBuildFile; fileRef = FD27685CC14D4C1689F71311 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/objects.cpp */; };
+		4370081E4ADC4E1CBE3833C0 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/pen_accent.h */ = {isa = PBXBuildFile; fileRef = 7AB18364726D4AC7BD19146E /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/pen_accent.h */; };
+		4675604424F349048A5477B7 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/ball_object.cpp */ = {isa = PBXBuildFile; fileRef = AEC69B2F19B84D29AC49E0D2 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/ball_object.cpp */; };
+		4CF779582B6B48FFAC6A1EB3 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/TextShader.vs */ = {isa = PBXBuildFile; fileRef = 649836994CC34984BDFC9B4F /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/TextShader.vs */; };
+		4D0B69006FBD454D91EB1E9E /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/glad.c */ = {isa = PBXBuildFile; fileRef = 382882DB445A4A46B5DF3C5B /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/glad.c */; };
+		516872ABCB77470395CB6DFE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/post_processor.cpp */ = {isa = PBXBuildFile; fileRef = AF89380FCEDA42979CBEA3E8 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/post_processor.cpp */; };
+		5201C0377B264A25AC470FA6 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/Cocoa.framework */ = {isa = PBXBuildFile; fileRef = 771043DF37E24D5CBF657A60 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/Cocoa.framework */; };
+		540F345F354C4B3EB046BE36 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sprite.fs */ = {isa = PBXBuildFile; fileRef = 43A04A22B0264C548279EE66 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sprite.fs */; };
+		5433063703C244498A9D72A6 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/shader.h */ = {isa = PBXBuildFile; fileRef = 1168888088CE4FBF8F829068 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/shader.h */; };
+		585FE6DA79AB4AF38614873C /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sprite_renderer.cpp */ = {isa = PBXBuildFile; fileRef = 9491CA2D4E4B4E4B93B7A166 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sprite_renderer.cpp */; };
+		5B29155B0A32485DA42CDACA /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9B048108DD344D3CA3AE38E0 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/CMakeLists.txt */; };
+		62B21CB4DF5A4B129D908350 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/stb_image.cpp */ = {isa = PBXBuildFile; fileRef = CAEEC1EA6AB74318B7436D64 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/stb_image.cpp */; };
+		6554C4A30AC841FD9DD71D4C /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/text_renderer.cpp */ = {isa = PBXBuildFile; fileRef = 0D2F41AEA52743DA9458DA12 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/text_renderer.cpp */; };
+		65D91BA3BCCF41FE8F430016 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/resource_manager.h */ = {isa = PBXBuildFile; fileRef = 1ADAC6BE239D483A91E6B729 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/resource_manager.h */; };
+		677610D7E9724D208468B471 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game_object.cpp */ = {isa = PBXBuildFile; fileRef = 6E98EE4DA6B742018C1B6FE0 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game_object.cpp */; };
+		67D563877EF744D3BBA0417C /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/particle.fs */ = {isa = PBXBuildFile; fileRef = 50B0F9E126A6427A9914F9E7 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/particle.fs */; };
+		6E282A34F6104EC2B3686D3A /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 26C2A05078C2494F8826EA42 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/CMakeLists.txt */; };
+		70AD321746CC432D91BF8D24 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/text_2d.fs */ = {isa = PBXBuildFile; fileRef = E1D1C3B63D26480C800E9E5A /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/text_2d.fs */; };
+		725A531BC6F94DBABD2B405D /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/resource_manager.cpp */ = {isa = PBXBuildFile; fileRef = BC7D721EB8864851A0171DCA /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/resource_manager.cpp */; };
+		72FA5F53C4E645E995D65E97 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/pen_body.h */ = {isa = PBXBuildFile; fileRef = 8C5F846A59084809A89F748A /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/pen_body.h */; };
+		76DC3DB3E83742998607541D /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/root_directory.h */ = {isa = PBXBuildFile; fileRef = DA543ED6BB594872A0F73492 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/root_directory.h */; };
+		78701DA8C9604C07AF45D673 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/moving.fs */ = {isa = PBXBuildFile; fileRef = 021237A51F6E4CCFA49236CB /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/moving.fs */; };
+		7BE6475437CE42D3998C2B3D /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/light_green.fs */ = {isa = PBXBuildFile; fileRef = 530778A6D2C44FC38F1F2373 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/light_green.fs */; };
+		809A415EC209466B95A7E9FE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/particle.vs */ = {isa = PBXBuildFile; fileRef = 58D64D560E364B248F6C24F8 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/particle.vs */; };
+		8542106CF6CA4826B0024AD8 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sprite.vs */ = {isa = PBXBuildFile; fileRef = 2BAE8EFCA72048E4A9DA633F /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sprite.vs */; };
+		89DF951CC2364D73A2A752E4 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/texture.h */ = {isa = PBXBuildFile; fileRef = 30B8D74EA05349D7BC35B88B /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/texture.h */; };
+		8B99F1B7250745398181B082 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/mesh.h */ = {isa = PBXBuildFile; fileRef = B6BF8D98C4644DCCA24C22BD /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/mesh.h */; };
+		967E5B1D8F76403C8B373FF7 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/stb_image.h */ = {isa = PBXBuildFile; fileRef = A7C2C546CD3A46538D6E2488 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/stb_image.h */; };
+		97A87E6BB183444898AC00E6 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/lightbox.vs */ = {isa = PBXBuildFile; fileRef = EEADC20EF2E84524A871A8C0 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/lightbox.vs */; };
+		98878F6052E74E2FA4E0ADD5 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/specular.fs */ = {isa = PBXBuildFile; fileRef = ECFE978313734175A1DD78EE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/specular.fs */; };
+		9BA38C2E3F5A4FC99A9697F5 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/flower_leaf.h */ = {isa = PBXBuildFile; fileRef = ABF06046E920434E95C589D1 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/flower_leaf.h */; };
+		9C8F9F2DD9CF45E9937F642A /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/particle_generator.cpp */ = {isa = PBXBuildFile; fileRef = 512BEC86564541C683601B21 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/particle_generator.cpp */; };
+		A927D95C9AAE46508F6985C5 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/glsl.vs */ = {isa = PBXBuildFile; fileRef = ABB219640DA541A5B76B291E /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/glsl.vs */; };
+		B3259C0E03B944DC8E7715F2 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game_object.h */ = {isa = PBXBuildFile; fileRef = 080003FC93A74FCFB8743F0F /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game_object.h */; };
+		B46CB9E746204090BB8C0C8D /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/flower_upper.h */ = {isa = PBXBuildFile; fileRef = 0F4E33E4F0B8410EAEEA9C46 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/flower_upper.h */; };
+		B4BAAA9DECB3473187966AED /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/text_renderer.h */ = {isa = PBXBuildFile; fileRef = 022BACFCEE9B4E6798EC6532 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/text_renderer.h */; };
+		B9EFB71B40314C05A6B366E5 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/flower_stem.h */ = {isa = PBXBuildFile; fileRef = 1FE1EB615BAE4581A9BF3780 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/flower_stem.h */; };
+		BFBF2E4106D64F1980809426 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/particle_generator.h */ = {isa = PBXBuildFile; fileRef = 3063D68182BD4868938773D7 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/particle_generator.h */; };
+		C32D66E1E6FA4AD090D35914 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/light_pink.fs */ = {isa = PBXBuildFile; fileRef = 72F0EEB6E5AB4ED89E0EE58E /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/light_pink.fs */; };
+		C58E2EF8FF264308A10E5AD2 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/IOKit.framework */ = {isa = PBXBuildFile; fileRef = EEA54FE66B154A379A454A48 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/IOKit.framework */; };
+		C7B2C45B628A4B959597BDE4 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/stb_image.cpp */ = {isa = PBXBuildFile; fileRef = A74B08EA7DBC4C1D93686850 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/stb_image.cpp */; };
+		C88F71FE14B247AB8D7BBB10 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/ball_object.h */ = {isa = PBXBuildFile; fileRef = 2B9BE676E0E04827929F2BE9 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/ball_object.h */; };
+		CEEBB89E7A924BDA93D5E061 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/pen_point.h */ = {isa = PBXBuildFile; fileRef = 5EC6A7D3D2824C449F91343D /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/pen_point.h */; };
+		D166A9B834924BB3BCE69B32 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/light_purple.fs */ = {isa = PBXBuildFile; fileRef = 42FCC928391648618BD7D8A1 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/light_purple.fs */; };
+		D1D2ACDCA7094FC8B1C7EA2B /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/skybox.vs */ = {isa = PBXBuildFile; fileRef = 3DD5E1B99051426791CEDF9C /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/skybox.vs */; };
+		D80EE43E4DEA47338205FDFC /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/CoreVideo.framework */ = {isa = PBXBuildFile; fileRef = 0C52056B00B7467A8428BB0E /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/CoreVideo.framework */; };
+		D94FE2DA2AF24B94B88F1EAA /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/camera.h */ = {isa = PBXBuildFile; fileRef = 026CDB2F3D1C41E59813032A /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/camera.h */; };
+		D982B6E7385A47F5986EA1A7 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/text_2d.vs */ = {isa = PBXBuildFile; fileRef = E5D6CDC6F6284D2398B91B18 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/text_2d.vs */; };
+		E205F1C9DF4A434B9BF326FA /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/lightbox.fs */ = {isa = PBXBuildFile; fileRef = E469D908318A4817B1E3603E /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/lightbox.fs */; };
+		E3445AF0D90943C9BA10C329 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/input.h */ = {isa = PBXBuildFile; fileRef = 9E8CBF465BBF4A50B9FE4BA5 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/input.h */; };
+		E3EA6698034B48599779FCA5 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/ft2build.h */ = {isa = PBXBuildFile; fileRef = A7AC0AF8179742C0A8B1EE7D /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/ft2build.h */; };
+		E851DDB8C278459BB009A515 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/post_processor.h */ = {isa = PBXBuildFile; fileRef = 24C84031A9254F52B085CA71 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/post_processor.h */; };
+		EAA700E05E6C4FDDA886EA32 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/post_processing.vs */ = {isa = PBXBuildFile; fileRef = 0DE4B1527FD44B798652F211 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/post_processing.vs */; };
+		EBBBC764C7604820B166C65A /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/skybox.fs */ = {isa = PBXBuildFile; fileRef = 56331D6457F047ADAD07DEEA /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/skybox.fs */; };
+		F1F60C3A13A0442781A12971 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXBuildFile; fileRef = 5BD5622F8128443DA5E71E1C /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/OpenGL.framework */; };
+		F326860C91184481B40711FA /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/freetype.h */ = {isa = PBXBuildFile; fileRef = 766CB8DDF192457AA9D8BB72 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/freetype.h */; };
+		F4A9E2AB609F4E5EBBC0F3BD /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/power_up.h */ = {isa = PBXBuildFile; fileRef = 1E881A5891B14A8E81C7D8AE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/power_up.h */; };
+		FA192B9DF38B4BF183CF228A /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/specular.vs */ = {isa = PBXBuildFile; fileRef = 4AD7F4A8197047A6BA262CCE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/specular.vs */; };
+		FA7ADA448C04443B97D9AB66 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game.h */ = {isa = PBXBuildFile; fileRef = F685BA918C594ABA83E18952 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2E9FD2CCE8E84FBD819EA7B7 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		611FDD836BCB49469BA42858 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		96E58382CCBE4A46BE99999D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		EC2F9ABD66024069BFB746AC /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		048178AD6538432D95297A2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD6CC402CF94A049EAFA727 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8997A8BDE5E48E589734E4C;
+			remoteInfo = ZERO_CHECK;
+		};
+		11930ADAF76445809EEE7D79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD6CC402CF94A049EAFA727 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8997A8BDE5E48E589734E4C;
+			remoteInfo = ZERO_CHECK;
+		};
+		2E159AA9E9324561904FE488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD6CC402CF94A049EAFA727 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8997A8BDE5E48E589734E4C;
+			remoteInfo = ZERO_CHECK;
+		};
+		388DD6044F944F94B5894825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD6CC402CF94A049EAFA727 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E9F29E87CBA4427BE3318A3;
+			remoteInfo = STB_IMAGE;
+		};
+		4E726A753F624AEEB0BB5158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD6CC402CF94A049EAFA727 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8997A8BDE5E48E589734E4C;
+			remoteInfo = ZERO_CHECK;
+		};
+		7639626D66894CA48F9A3993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD6CC402CF94A049EAFA727 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0715BB3D8B48058201D5FA;
+			remoteInfo = GLAD;
+		};
+		8BC72D3C378A49BD9496E8DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD6CC402CF94A049EAFA727 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A5581F0AD4041E388B724F8;
+			remoteInfo = sa__game;
+		};
+		90E3AACFAC6C4E84BD4547B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD6CC402CF94A049EAFA727 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E9F29E87CBA4427BE3318A3;
+			remoteInfo = STB_IMAGE;
+		};
+		E2D3F5EE082C453CB8D31026 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD6CC402CF94A049EAFA727 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0715BB3D8B48058201D5FA;
+			remoteInfo = GLAD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021237A51F6E4CCFA49236CB /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/moving.fs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moving.fs; path = src/sa/game/moving.fs; sourceTree = SOURCE_ROOT; };
+		022BACFCEE9B4E6798EC6532 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/text_renderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = text_renderer.h; path = src/sa/game/text_renderer.h; sourceTree = SOURCE_ROOT; };
+		026CDB2F3D1C41E59813032A /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = camera.h; path = src/sa/game/camera.h; sourceTree = SOURCE_ROOT; };
+		080003FC93A74FCFB8743F0F /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game_object.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = game_object.h; path = src/sa/game/game_object.h; sourceTree = SOURCE_ROOT; };
+		0C52056B00B7467A8428BB0E /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/CoreVideo.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		0D2F41AEA52743DA9458DA12 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/text_renderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = text_renderer.cpp; path = src/sa/game/text_renderer.cpp; sourceTree = SOURCE_ROOT; };
+		0DE4B1527FD44B798652F211 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/post_processing.vs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = post_processing.vs; path = src/sa/game/post_processing.vs; sourceTree = SOURCE_ROOT; };
+		0F4E33E4F0B8410EAEEA9C46 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/flower_upper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = flower_upper.h; path = src/sa/game/flower_upper.h; sourceTree = SOURCE_ROOT; };
+		1168888088CE4FBF8F829068 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/shader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shader.h; path = src/sa/game/shader.h; sourceTree = SOURCE_ROOT; };
+		1ADAC6BE239D483A91E6B729 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/resource_manager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = resource_manager.h; path = src/sa/game/resource_manager.h; sourceTree = SOURCE_ROOT; };
+		1E881A5891B14A8E81C7D8AE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/power_up.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = power_up.h; path = src/sa/game/power_up.h; sourceTree = SOURCE_ROOT; };
+		1FE1EB615BAE4581A9BF3780 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/flower_stem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = flower_stem.h; path = src/sa/game/flower_stem.h; sourceTree = SOURCE_ROOT; };
+		21951586F98B4B70B90D1152 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/texture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = texture.cpp; path = src/sa/game/texture.cpp; sourceTree = SOURCE_ROOT; };
+		24C84031A9254F52B085CA71 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/post_processor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = post_processor.h; path = src/sa/game/post_processor.h; sourceTree = SOURCE_ROOT; };
+		26C2A05078C2494F8826EA42 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		26DF38CD39E847A9B4A436FC /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/filesystem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = filesystem.h; path = src/sa/game/filesystem.h; sourceTree = SOURCE_ROOT; };
+		276EEE81930D4BA3813B0578 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2B9BE676E0E04827929F2BE9 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/ball_object.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ball_object.h; path = src/sa/game/ball_object.h; sourceTree = SOURCE_ROOT; };
+		2BAE8EFCA72048E4A9DA633F /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sprite.vs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = sprite.vs; path = src/sa/game/sprite.vs; sourceTree = SOURCE_ROOT; };
+		3063D68182BD4868938773D7 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/particle_generator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = particle_generator.h; path = src/sa/game/particle_generator.h; sourceTree = SOURCE_ROOT; };
+		30B8D74EA05349D7BC35B88B /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/texture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = texture.h; path = src/sa/game/texture.h; sourceTree = SOURCE_ROOT; };
+		382882DB445A4A46B5DF3C5B /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = src/glad.c; sourceTree = SOURCE_ROOT; };
+		3B304CAAA588411BAFE592EF /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/model.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = model.h; path = src/sa/game/model.h; sourceTree = SOURCE_ROOT; };
+		3B93BDBD5CFF47F286739700 /* GLAD */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGLAD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD5E1B99051426791CEDF9C /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/skybox.vs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = skybox.vs; path = src/sa/game/skybox.vs; sourceTree = SOURCE_ROOT; };
+		42FCC928391648618BD7D8A1 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/light_purple.fs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = light_purple.fs; path = src/sa/game/light_purple.fs; sourceTree = SOURCE_ROOT; };
+		43A04A22B0264C548279EE66 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sprite.fs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = sprite.fs; path = src/sa/game/sprite.fs; sourceTree = SOURCE_ROOT; };
+		4AD7F4A8197047A6BA262CCE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/specular.vs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = specular.vs; path = src/sa/game/specular.vs; sourceTree = SOURCE_ROOT; };
+		503006010ADA43139D5F9744 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/moving.vs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moving.vs; path = src/sa/game/moving.vs; sourceTree = SOURCE_ROOT; };
+		50B0F9E126A6427A9914F9E7 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/particle.fs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = particle.fs; path = src/sa/game/particle.fs; sourceTree = SOURCE_ROOT; };
+		512BEC86564541C683601B21 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/particle_generator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = particle_generator.cpp; path = src/sa/game/particle_generator.cpp; sourceTree = SOURCE_ROOT; };
+		530778A6D2C44FC38F1F2373 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/light_green.fs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = light_green.fs; path = src/sa/game/light_green.fs; sourceTree = SOURCE_ROOT; };
+		5364604A9CFA4D04B0FC2781 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/shader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shader.cpp; path = src/sa/game/shader.cpp; sourceTree = SOURCE_ROOT; };
+		56331D6457F047ADAD07DEEA /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/skybox.fs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = skybox.fs; path = src/sa/game/skybox.fs; sourceTree = SOURCE_ROOT; };
+		58D64D560E364B248F6C24F8 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/particle.vs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = particle.vs; path = src/sa/game/particle.vs; sourceTree = SOURCE_ROOT; };
+		5BD5622F8128443DA5E71E1C /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		5EC6A7D3D2824C449F91343D /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/pen_point.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pen_point.h; path = src/sa/game/pen_point.h; sourceTree = SOURCE_ROOT; };
+		5F694CD2ABCF46CCB246C288 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6289D11DF5184ECCBA94C762 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game_level.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = game_level.h; path = src/sa/game/game_level.h; sourceTree = SOURCE_ROOT; };
+		649836994CC34984BDFC9B4F /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/TextShader.vs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = TextShader.vs; path = src/sa/game/TextShader.vs; sourceTree = SOURCE_ROOT; };
+		65AFC1D4E9B24D98BAE26F85 /* sa__game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = sa__game; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E98EE4DA6B742018C1B6FE0 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game_object.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = game_object.cpp; path = src/sa/game/game_object.cpp; sourceTree = SOURCE_ROOT; };
+		72F0EEB6E5AB4ED89E0EE58E /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/light_pink.fs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = light_pink.fs; path = src/sa/game/light_pink.fs; sourceTree = SOURCE_ROOT; };
+		73FE31DC6D844DF2A1C387CE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game_level.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = game_level.cpp; path = src/sa/game/game_level.cpp; sourceTree = SOURCE_ROOT; };
+		766CB8DDF192457AA9D8BB72 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/freetype.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = freetype.h; path = src/sa/game/freetype.h; sourceTree = SOURCE_ROOT; };
+		771043DF37E24D5CBF657A60 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/Cocoa.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		7818AEB31C884A51883C75B1 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = game.cpp; path = src/sa/game/game.cpp; sourceTree = SOURCE_ROOT; };
+		7AB18364726D4AC7BD19146E /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/pen_accent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pen_accent.h; path = src/sa/game/pen_accent.h; sourceTree = SOURCE_ROOT; };
+		7D6143E1D73245FDBB40CCA2 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sprite_renderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sprite_renderer.h; path = src/sa/game/sprite_renderer.h; sourceTree = SOURCE_ROOT; };
+		8C5F846A59084809A89F748A /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/pen_body.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pen_body.h; path = src/sa/game/pen_body.h; sourceTree = SOURCE_ROOT; };
+		8EDA4EA71F334E8D926979B8 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/objects.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = objects.h; path = src/sa/game/objects.h; sourceTree = SOURCE_ROOT; };
+		9491CA2D4E4B4E4B93B7A166 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sprite_renderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sprite_renderer.cpp; path = src/sa/game/sprite_renderer.cpp; sourceTree = SOURCE_ROOT; };
+		9B048108DD344D3CA3AE38E0 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9E8CBF465BBF4A50B9FE4BA5 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/input.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = input.h; path = src/sa/game/input.h; sourceTree = SOURCE_ROOT; };
+		A74B08EA7DBC4C1D93686850 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/stb_image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stb_image.cpp; path = src/stb_image.cpp; sourceTree = SOURCE_ROOT; };
+		A7AC0AF8179742C0A8B1EE7D /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/ft2build.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ft2build.h; path = src/sa/game/ft2build.h; sourceTree = SOURCE_ROOT; };
+		A7C2C546CD3A46538D6E2488 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/stb_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image.h; path = src/sa/game/stb_image.h; sourceTree = SOURCE_ROOT; };
+		ABB219640DA541A5B76B291E /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/glsl.vs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = glsl.vs; path = src/sa/game/glsl.vs; sourceTree = SOURCE_ROOT; };
+		ABF06046E920434E95C589D1 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/flower_leaf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = flower_leaf.h; path = src/sa/game/flower_leaf.h; sourceTree = SOURCE_ROOT; };
+		AE0CDE491E644066B6462CD5 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/pen_clip.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pen_clip.h; path = src/sa/game/pen_clip.h; sourceTree = SOURCE_ROOT; };
+		AEC69B2F19B84D29AC49E0D2 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/ball_object.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ball_object.cpp; path = src/sa/game/ball_object.cpp; sourceTree = SOURCE_ROOT; };
+		AF89380FCEDA42979CBEA3E8 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/post_processor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = post_processor.cpp; path = src/sa/game/post_processor.cpp; sourceTree = SOURCE_ROOT; };
+		B42A7B5AB9A54794BEF8FC8B /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/program.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = program.cpp; path = src/sa/game/program.cpp; sourceTree = SOURCE_ROOT; };
+		B6BF8D98C4644DCCA24C22BD /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh.h; path = src/sa/game/mesh.h; sourceTree = SOURCE_ROOT; };
+		BC7D721EB8864851A0171DCA /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/resource_manager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = resource_manager.cpp; path = src/sa/game/resource_manager.cpp; sourceTree = SOURCE_ROOT; };
+		C2DF8ABA4BA94109B5835D34 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/post_processing.fs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = post_processing.fs; path = src/sa/game/post_processing.fs; sourceTree = SOURCE_ROOT; };
+		CAEEC1EA6AB74318B7436D64 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/stb_image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stb_image.cpp; path = src/sa/game/stb_image.cpp; sourceTree = SOURCE_ROOT; };
+		D74572DCF9FF4A77BE061DC0 /* STB_IMAGE */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSTB_IMAGE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90B5AAE2DE9435FAF781A2E /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sphere.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sphere.h; path = src/sa/game/sphere.h; sourceTree = SOURCE_ROOT; };
+		DA543ED6BB594872A0F73492 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/root_directory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = root_directory.h; path = src/sa/game/root_directory.h; sourceTree = SOURCE_ROOT; };
+		DE7B4C0A8F4541A98C28EEAD /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/vertical_scroll.vs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vertical_scroll.vs; path = src/sa/game/vertical_scroll.vs; sourceTree = SOURCE_ROOT; };
+		E1D1C3B63D26480C800E9E5A /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/text_2d.fs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = text_2d.fs; path = src/sa/game/text_2d.fs; sourceTree = SOURCE_ROOT; };
+		E469D908318A4817B1E3603E /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/lightbox.fs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = lightbox.fs; path = src/sa/game/lightbox.fs; sourceTree = SOURCE_ROOT; };
+		E5D6CDC6F6284D2398B91B18 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/text_2d.vs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = text_2d.vs; path = src/sa/game/text_2d.vs; sourceTree = SOURCE_ROOT; };
+		E869F1B70C3141DA85105566 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/TextShader.fs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = TextShader.fs; path = src/sa/game/TextShader.fs; sourceTree = SOURCE_ROOT; };
+		ECFE978313734175A1DD78EE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/specular.fs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = specular.fs; path = src/sa/game/specular.fs; sourceTree = SOURCE_ROOT; };
+		EEA54FE66B154A379A454A48 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/IOKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		EEADC20EF2E84524A871A8C0 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/lightbox.vs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = lightbox.vs; path = src/sa/game/lightbox.vs; sourceTree = SOURCE_ROOT; };
+		F685BA918C594ABA83E18952 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = game.h; path = src/sa/game/game.h; sourceTree = SOURCE_ROOT; };
+		FD27685CC14D4C1689F71311 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/objects.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = objects.cpp; path = src/sa/game/objects.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DA598E9B1EA45C4A607762B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71C5C42243947D8B1EC701F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCEEAD33A674309B6440E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		148F68D2C6A9485397982DA0 /* sa__game */ = {
+			isa = PBXGroup;
+			children = (
+				91644E05449F4E649AB2E429 /* Source Files */,
+				C749436DD326420FBA62FA2C /* Header Files */,
+				26C2A05078C2494F8826EA42 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/CMakeLists.txt */,
+				E869F1B70C3141DA85105566 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/TextShader.fs */,
+				649836994CC34984BDFC9B4F /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/TextShader.vs */,
+				ABB219640DA541A5B76B291E /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/glsl.vs */,
+				530778A6D2C44FC38F1F2373 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/light_green.fs */,
+				72F0EEB6E5AB4ED89E0EE58E /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/light_pink.fs */,
+				42FCC928391648618BD7D8A1 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/light_purple.fs */,
+				E469D908318A4817B1E3603E /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/lightbox.fs */,
+				EEADC20EF2E84524A871A8C0 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/lightbox.vs */,
+				021237A51F6E4CCFA49236CB /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/moving.fs */,
+				503006010ADA43139D5F9744 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/moving.vs */,
+				50B0F9E126A6427A9914F9E7 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/particle.fs */,
+				58D64D560E364B248F6C24F8 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/particle.vs */,
+				C2DF8ABA4BA94109B5835D34 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/post_processing.fs */,
+				0DE4B1527FD44B798652F211 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/post_processing.vs */,
+				56331D6457F047ADAD07DEEA /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/skybox.fs */,
+				3DD5E1B99051426791CEDF9C /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/skybox.vs */,
+				ECFE978313734175A1DD78EE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/specular.fs */,
+				4AD7F4A8197047A6BA262CCE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/specular.vs */,
+				43A04A22B0264C548279EE66 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sprite.fs */,
+				2BAE8EFCA72048E4A9DA633F /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sprite.vs */,
+				E1D1C3B63D26480C800E9E5A /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/text_2d.fs */,
+				E5D6CDC6F6284D2398B91B18 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/text_2d.vs */,
+				DE7B4C0A8F4541A98C28EEAD /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/vertical_scroll.vs */,
+			);
+			name = sa__game;
+			sourceTree = "<group>";
+		};
+		172C9E0B398941DD9134DDEA /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				5615C00574824A35BA9BB06F /* CMake Rules */,
+				5F694CD2ABCF46CCB246C288 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		32D1B1C4B0454B06AE6B6C3F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A74B08EA7DBC4C1D93686850 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/stb_image.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3E72C15A99094CC3A8271C44 = {
+			isa = PBXGroup;
+			children = (
+				482EDE63A26E4B06AB3EF5C0 /* STB_IMAGE */,
+				F08F872C12AF4C1BA35ACD0B /* GLAD */,
+				148F68D2C6A9485397982DA0 /* sa__game */,
+				172C9E0B398941DD9134DDEA /* ALL_BUILD */,
+				9528652403284148A9FD1EEC /* Products */,
+				5DAF6B628D47499BA86192F7 /* Frameworks */,
+				BB024151404843F6BB9A45E4 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		482EDE63A26E4B06AB3EF5C0 /* STB_IMAGE */ = {
+			isa = PBXGroup;
+			children = (
+				32D1B1C4B0454B06AE6B6C3F /* Source Files */,
+				9B048108DD344D3CA3AE38E0 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/CMakeLists.txt */,
+			);
+			name = STB_IMAGE;
+			sourceTree = "<group>";
+		};
+		5615C00574824A35BA9BB06F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		5DAF6B628D47499BA86192F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				771043DF37E24D5CBF657A60 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/Cocoa.framework */,
+				EEA54FE66B154A379A454A48 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/IOKit.framework */,
+				5BD5622F8128443DA5E71E1C /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/OpenGL.framework */,
+				0C52056B00B7467A8428BB0E /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/CoreVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91644E05449F4E649AB2E429 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEC69B2F19B84D29AC49E0D2 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/ball_object.cpp */,
+				7818AEB31C884A51883C75B1 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game.cpp */,
+				73FE31DC6D844DF2A1C387CE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game_level.cpp */,
+				6E98EE4DA6B742018C1B6FE0 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game_object.cpp */,
+				FD27685CC14D4C1689F71311 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/objects.cpp */,
+				512BEC86564541C683601B21 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/particle_generator.cpp */,
+				AF89380FCEDA42979CBEA3E8 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/post_processor.cpp */,
+				B42A7B5AB9A54794BEF8FC8B /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/program.cpp */,
+				BC7D721EB8864851A0171DCA /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/resource_manager.cpp */,
+				5364604A9CFA4D04B0FC2781 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/shader.cpp */,
+				9491CA2D4E4B4E4B93B7A166 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sprite_renderer.cpp */,
+				CAEEC1EA6AB74318B7436D64 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/stb_image.cpp */,
+				0D2F41AEA52743DA9458DA12 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/text_renderer.cpp */,
+				21951586F98B4B70B90D1152 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/texture.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9528652403284148A9FD1EEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B93BDBD5CFF47F286739700 /* GLAD */,
+				D74572DCF9FF4A77BE061DC0 /* STB_IMAGE */,
+				65AFC1D4E9B24D98BAE26F85 /* sa__game */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A549321D4C534A5496EB537D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				382882DB445A4A46B5DF3C5B /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/glad.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BB024151404843F6BB9A45E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C749436DD326420FBA62FA2C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B9BE676E0E04827929F2BE9 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/ball_object.h */,
+				026CDB2F3D1C41E59813032A /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/camera.h */,
+				26DF38CD39E847A9B4A436FC /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/filesystem.h */,
+				ABF06046E920434E95C589D1 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/flower_leaf.h */,
+				1FE1EB615BAE4581A9BF3780 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/flower_stem.h */,
+				0F4E33E4F0B8410EAEEA9C46 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/flower_upper.h */,
+				766CB8DDF192457AA9D8BB72 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/freetype.h */,
+				A7AC0AF8179742C0A8B1EE7D /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/ft2build.h */,
+				F685BA918C594ABA83E18952 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game.h */,
+				6289D11DF5184ECCBA94C762 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game_level.h */,
+				080003FC93A74FCFB8743F0F /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game_object.h */,
+				9E8CBF465BBF4A50B9FE4BA5 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/input.h */,
+				B6BF8D98C4644DCCA24C22BD /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/mesh.h */,
+				3B304CAAA588411BAFE592EF /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/model.h */,
+				8EDA4EA71F334E8D926979B8 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/objects.h */,
+				3063D68182BD4868938773D7 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/particle_generator.h */,
+				7AB18364726D4AC7BD19146E /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/pen_accent.h */,
+				8C5F846A59084809A89F748A /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/pen_body.h */,
+				AE0CDE491E644066B6462CD5 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/pen_clip.h */,
+				5EC6A7D3D2824C449F91343D /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/pen_point.h */,
+				24C84031A9254F52B085CA71 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/post_processor.h */,
+				1E881A5891B14A8E81C7D8AE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/power_up.h */,
+				1ADAC6BE239D483A91E6B729 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/resource_manager.h */,
+				DA543ED6BB594872A0F73492 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/root_directory.h */,
+				1168888088CE4FBF8F829068 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/shader.h */,
+				D90B5AAE2DE9435FAF781A2E /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sphere.h */,
+				7D6143E1D73245FDBB40CCA2 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sprite_renderer.h */,
+				A7C2C546CD3A46538D6E2488 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/stb_image.h */,
+				022BACFCEE9B4E6798EC6532 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/text_renderer.h */,
+				30B8D74EA05349D7BC35B88B /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/texture.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		F08F872C12AF4C1BA35ACD0B /* GLAD */ = {
+			isa = PBXGroup;
+			children = (
+				A549321D4C534A5496EB537D /* Source Files */,
+				276EEE81930D4BA3813B0578 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/CMakeLists.txt */,
+			);
+			name = GLAD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A5581F0AD4041E388B724F8 /* sa__game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D68CA2FB53B47C6AE352220 /* Build configuration list for PBXNativeTarget "sa__game" */;
+			buildPhases = (
+				D2BBEE2C72154AF9A759A559 /* Sources */,
+				D71C5C42243947D8B1EC701F /* Frameworks */,
+				51831CB15C9132292AEA156A /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8FB5077F8A2498894B2965A /* PBXTargetDependency */,
+				09973A44BF3143C48FFD8F6F /* PBXTargetDependency */,
+				E6074F8ADB9749C0BC780E8F /* PBXTargetDependency */,
+			);
+			name = sa__game;
+			productName = sa__game;
+			productReference = 65AFC1D4E9B24D98BAE26F85 /* sa__game */;
+			productType = "com.apple.product-type.tool";
+		};
+		9E9F29E87CBA4427BE3318A3 /* STB_IMAGE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF0705471FF24681A2021CAC /* Build configuration list for PBXNativeTarget "STB_IMAGE" */;
+			buildPhases = (
+				415BD6F2D0A84958BA8522D9 /* Sources */,
+				8DA598E9B1EA45C4A607762B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3E38B37B5B1457FBF895C9F /* PBXTargetDependency */,
+			);
+			name = STB_IMAGE;
+			productName = STB_IMAGE;
+			productReference = D74572DCF9FF4A77BE061DC0 /* STB_IMAGE */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA0715BB3D8B48058201D5FA /* GLAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F53D1B401E9348D8B2101B0E /* Build configuration list for PBXNativeTarget "GLAD" */;
+			buildPhases = (
+				8381E2B6EF0845A0957868B6 /* Sources */,
+				FBCEEAD33A674309B6440E2E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C175D4CC6AF4B4786AA350C /* PBXTargetDependency */,
+			);
+			name = GLAD;
+			productName = GLAD;
+			productReference = 3B93BDBD5CFF47F286739700 /* GLAD */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AD6CC402CF94A049EAFA727 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4D1CA8C5AE004E08A3F22F27 /* Build configuration list for PBXProject "SheraAdamsProject330" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				96E58382CCBE4A46BE99999D /* Debug */,
+				EC2F9ABD66024069BFB746AC /* Release */,
+				611FDD836BCB49469BA42858 /* MinSizeRel */,
+				2E9FD2CCE8E84FBD819EA7B7 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3E72C15A99094CC3A8271C44;
+			projectDirPath = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game";
+			projectRoot = "";
+			targets = (
+				73EFA43E42594DC7AFC5FDB8 /* ALL_BUILD */,
+				FA0715BB3D8B48058201D5FA /* GLAD */,
+				9E9F29E87CBA4427BE3318A3 /* STB_IMAGE */,
+				D8997A8BDE5E48E589734E4C /* ZERO_CHECK */,
+				2A5581F0AD4041E388B724F8 /* sa__game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		51831CB15C9132292AEA156A /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/TextShader.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/TextShader.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/TextShader.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/TextShader.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/glsl.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/glsl.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/light_green.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/light_green.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/light_pink.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/light_pink.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/light_purple.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/light_purple.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/lightbox.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/lightbox.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/lightbox.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/lightbox.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/moving.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/moving.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/moving.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/moving.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/particle.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/particle.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/particle.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/particle.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/post_processing.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/post_processing.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/post_processing.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/post_processing.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/skybox.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/skybox.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/skybox.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/skybox.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/specular.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/specular.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/specular.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/specular.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/sprite.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/sprite.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/sprite.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/sprite.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/text_2d.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/text_2d.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/text_2d.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/text_2d.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/vertical_scroll.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/vertical_scroll.vs
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/TextShader.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/TextShader.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/TextShader.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/TextShader.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/glsl.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/glsl.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/light_green.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/light_green.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/light_pink.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/light_pink.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/light_purple.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/light_purple.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/lightbox.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/lightbox.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/lightbox.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/lightbox.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/moving.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/moving.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/moving.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/moving.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/particle.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/particle.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/particle.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/particle.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/post_processing.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/post_processing.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/post_processing.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/post_processing.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/skybox.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/skybox.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/skybox.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/skybox.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/specular.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/specular.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/specular.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/specular.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/sprite.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/sprite.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/sprite.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/sprite.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/text_2d.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/text_2d.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/text_2d.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/text_2d.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/vertical_scroll.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/vertical_scroll.vs
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/TextShader.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/TextShader.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/TextShader.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/TextShader.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/glsl.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/glsl.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/light_green.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/light_green.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/light_pink.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/light_pink.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/light_purple.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/light_purple.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/lightbox.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/lightbox.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/lightbox.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/lightbox.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/moving.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/moving.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/moving.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/moving.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/particle.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/particle.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/particle.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/particle.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/post_processing.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/post_processing.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/post_processing.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/post_processing.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/skybox.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/skybox.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/skybox.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/skybox.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/specular.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/specular.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/specular.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/specular.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/sprite.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/sprite.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/sprite.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/sprite.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/text_2d.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/text_2d.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/text_2d.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/text_2d.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/vertical_scroll.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/vertical_scroll.vs
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/TextShader.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/TextShader.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/TextShader.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/TextShader.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/glsl.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/glsl.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/light_green.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/light_green.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/light_pink.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/light_pink.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/light_purple.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/light_purple.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/lightbox.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/lightbox.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/lightbox.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/lightbox.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/moving.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/moving.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/moving.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/moving.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/particle.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/particle.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/particle.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/particle.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/post_processing.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/post_processing.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/post_processing.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/post_processing.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/skybox.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/skybox.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/skybox.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/skybox.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/specular.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/specular.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/specular.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/specular.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/sprite.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/sprite.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/sprite.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/sprite.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/text_2d.fs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/text_2d.fs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/text_2d.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/text_2d.vs
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -E create_symlink /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/src/sa/game/vertical_scroll.vs /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/bin/sa/vertical_scroll.vs
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		636035986EA4FCAD88E673B3 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  make -f /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  make -f /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  make -f /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  make -f /Users/s.adams/Documents/GitHub/Space-Shooter-Game\\ copy/Cross\\ Platform\\ Game/space\\ shooter\\ game/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D21EF198DD58E81322AFD127 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build\"
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		415BD6F2D0A84958BA8522D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B2C45B628A4B959597BDE4 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/stb_image.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8381E2B6EF0845A0957868B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0B69006FBD454D91EB1E9E /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/glad.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2BBEE2C72154AF9A759A559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4675604424F349048A5477B7 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/ball_object.cpp */,
+				326F09B3AFD64286A4DE2EAC /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game.cpp */,
+				2538C4C30C4F4F72893C385F /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game_level.cpp */,
+				677610D7E9724D208468B471 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/game_object.cpp */,
+				40153EE04FF041AE9F8CF3D5 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/objects.cpp */,
+				9C8F9F2DD9CF45E9937F642A /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/particle_generator.cpp */,
+				516872ABCB77470395CB6DFE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/post_processor.cpp */,
+				1976320A5BEF4D12A9ED2737 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/program.cpp */,
+				725A531BC6F94DBABD2B405D /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/resource_manager.cpp */,
+				074D7256961441F7988B1BFE /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/shader.cpp */,
+				585FE6DA79AB4AF38614873C /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/sprite_renderer.cpp */,
+				62B21CB4DF5A4B129D908350 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/stb_image.cpp */,
+				6554C4A30AC841FD9DD71D4C /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/text_renderer.cpp */,
+				1DC39684DE254293963978E5 /* /Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/src/sa/game/texture.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09973A44BF3143C48FFD8F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E9F29E87CBA4427BE3318A3 /* STB_IMAGE */;
+			targetProxy = 90E3AACFAC6C4E84BD4547B7 /* PBXContainerItemProxy */;
+		};
+		0F91D821C07249AFA758D120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E9F29E87CBA4427BE3318A3 /* STB_IMAGE */;
+			targetProxy = 388DD6044F944F94B5894825 /* PBXContainerItemProxy */;
+		};
+		5C175D4CC6AF4B4786AA350C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8997A8BDE5E48E589734E4C /* ZERO_CHECK */;
+			targetProxy = 11930ADAF76445809EEE7D79 /* PBXContainerItemProxy */;
+		};
+		706DFE269F244C8885F35AA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8997A8BDE5E48E589734E4C /* ZERO_CHECK */;
+			targetProxy = 2E159AA9E9324561904FE488 /* PBXContainerItemProxy */;
+		};
+		A3E38B37B5B1457FBF895C9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8997A8BDE5E48E589734E4C /* ZERO_CHECK */;
+			targetProxy = 4E726A753F624AEEB0BB5158 /* PBXContainerItemProxy */;
+		};
+		BC9E0AA4228C4D98871BCD6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A5581F0AD4041E388B724F8 /* sa__game */;
+			targetProxy = 8BC72D3C378A49BD9496E8DB /* PBXContainerItemProxy */;
+		};
+		D5732ADA8D164CE3B2632FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0715BB3D8B48058201D5FA /* GLAD */;
+			targetProxy = 7639626D66894CA48F9A3993 /* PBXContainerItemProxy */;
+		};
+		E6074F8ADB9749C0BC780E8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8997A8BDE5E48E589734E4C /* ZERO_CHECK */;
+			targetProxy = 048178AD6538432D95297A2F /* PBXContainerItemProxy */;
+		};
+		E8FB5077F8A2498894B2965A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0715BB3D8B48058201D5FA /* GLAD */;
+			targetProxy = E2D3F5EE082C453CB8D31026 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		051ECB1852E1493197CC5CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/homebrew/include,/System/Library/Frameworks,"\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/configuration\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/includes\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLAD;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/build/GLAD.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0D0B00E7CD4D4F8591160CB7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		22D3CFCEE7F5432FA3C019E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		36146EB7C5614DC5B6701737 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/bin/sa/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/homebrew/include,/System/Library/Frameworks,"\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/configuration\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/includes\"","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/lib\"","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/lib\"","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework Cocoa","-framework IOKit","-framework OpenGL","-framework CoreVideo",/opt/homebrew/lib/libglfw.dylib,/opt/homebrew/lib/libassimp.dylib,/opt/homebrew/lib/libfreetype.dylib,"\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/MinSizeRel/libSTB_IMAGE.a\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/MinSizeRel/libGLAD.a\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sa__game;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/build/sa__game.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3E28A1553A3A453C899A2F68 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/build";
+			};
+			name = MinSizeRel;
+		};
+		57053923C5684A73989E568D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/bin/sa/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/homebrew/include,/System/Library/Frameworks,"\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/configuration\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/includes\"","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/lib\"","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/lib\"","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework Cocoa","-framework IOKit","-framework OpenGL","-framework CoreVideo",/opt/homebrew/lib/libglfw.dylib,/opt/homebrew/lib/libassimp.dylib,/opt/homebrew/lib/libfreetype.dylib,"\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/RelWithDebInfo/libSTB_IMAGE.a\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/RelWithDebInfo/libGLAD.a\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sa__game;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/build/sa__game.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5FF268FEDAEF417886D89AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/build";
+			};
+			name = Release;
+		};
+		6636304417A3463793F9C925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/bin/sa";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/homebrew/include,/System/Library/Frameworks,"\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/configuration\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/includes\"","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/lib\"","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/lib\"","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework Cocoa","-framework IOKit","-framework OpenGL","-framework CoreVideo",/opt/homebrew/lib/libglfw.dylib,/opt/homebrew/lib/libassimp.dylib,/opt/homebrew/lib/libfreetype.dylib,"\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/Debug/libSTB_IMAGE.a\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/Debug/libGLAD.a\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sa__game;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/build/sa__game.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		74D3EF24F5824E55B605EA9A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/homebrew/include,/System/Library/Frameworks,"\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/configuration\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/includes\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLAD;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/build/GLAD.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		791A62A5786941A898A17110 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/homebrew/include,/System/Library/Frameworks,"\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/configuration\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/includes\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = STB_IMAGE;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/build/STB_IMAGE.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		80615D66A4864265AA7E8C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8C50CFD6F4E54DDC97F30BCB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/homebrew/include,/System/Library/Frameworks,"\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/configuration\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/includes\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLAD;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/build/GLAD.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9EE38D58CC7348D09AA03A17 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A480725A76AD4F51B2B49185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/homebrew/include,/System/Library/Frameworks,"\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/configuration\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/includes\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = STB_IMAGE;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/build/STB_IMAGE.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DD7125694B0E4155B5D4581D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DEBD06142C154D7F8902D4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/bin/sa";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/homebrew/include,/System/Library/Frameworks,"\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/configuration\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/includes\"","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/lib\"","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/lib\"","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework Cocoa","-framework IOKit","-framework OpenGL","-framework CoreVideo",/opt/homebrew/lib/libglfw.dylib,/opt/homebrew/lib/libassimp.dylib,/opt/homebrew/lib/libfreetype.dylib,"\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/Release/libSTB_IMAGE.a\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/Release/libGLAD.a\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sa__game;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/build/sa__game.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DFD1B0E320C74A8ABE7E7058 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E2F37EB62E3F489BB3EB5D78 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E8C83ED09D1649A78D67E426 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F257BC7967B54F8CADA6351E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/homebrew/include,/System/Library/Frameworks,"\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/configuration\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/includes\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLAD;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/build/GLAD.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F9FA81BD943540F3B94329E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FBBB0D9C85B344F1A4C166D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/homebrew/include,/System/Library/Frameworks,"\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/configuration\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/includes\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = STB_IMAGE;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/build/STB_IMAGE.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FDE9C8A1D7A442C6808B25B6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/homebrew/include,/System/Library/Frameworks,"\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/configuration\"","\"/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/includes\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = STB_IMAGE;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/build/STB_IMAGE.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FE3F7A0C6D8D42F28C1AFD8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk;
+				SYMROOT = "/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1252FBF42F45490D857FAAA3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80615D66A4864265AA7E8C0A /* Debug */,
+				F9FA81BD943540F3B94329E9 /* Release */,
+				DFD1B0E320C74A8ABE7E7058 /* MinSizeRel */,
+				E2F37EB62E3F489BB3EB5D78 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		382E4CEDFA614DD5A6B6FFEA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D3CFCEE7F5432FA3C019E6 /* Debug */,
+				DD7125694B0E4155B5D4581D /* Release */,
+				E8C83ED09D1649A78D67E426 /* MinSizeRel */,
+				9EE38D58CC7348D09AA03A17 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3D68CA2FB53B47C6AE352220 /* Build configuration list for PBXNativeTarget "sa__game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6636304417A3463793F9C925 /* Debug */,
+				DEBD06142C154D7F8902D4FE /* Release */,
+				36146EB7C5614DC5B6701737 /* MinSizeRel */,
+				57053923C5684A73989E568D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4D1CA8C5AE004E08A3F22F27 /* Build configuration list for PBXProject "SheraAdamsProject330" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3F7A0C6D8D42F28C1AFD8C /* Debug */,
+				5FF268FEDAEF417886D89AF7 /* Release */,
+				3E28A1553A3A453C899A2F68 /* MinSizeRel */,
+				0D0B00E7CD4D4F8591160CB7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DF0705471FF24681A2021CAC /* Build configuration list for PBXNativeTarget "STB_IMAGE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A480725A76AD4F51B2B49185 /* Debug */,
+				FBBB0D9C85B344F1A4C166D9 /* Release */,
+				FDE9C8A1D7A442C6808B25B6 /* MinSizeRel */,
+				791A62A5786941A898A17110 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F53D1B401E9348D8B2101B0E /* Build configuration list for PBXNativeTarget "GLAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051ECB1852E1493197CC5CA5 /* Debug */,
+				F257BC7967B54F8CADA6351E /* Release */,
+				74D3EF24F5824E55B605EA9A /* MinSizeRel */,
+				8C50CFD6F4E54DDC97F30BCB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AD6CC402CF94A049EAFA727 /* Project object */;
+}

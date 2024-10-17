@@ -1,0 +1,15 @@
+Target dependency graph (5 targets)
+Target 'ALL_BUILD' in project 'SheraAdamsProject330'
+➜ Explicit dependency on target 'GLAD' in project 'SheraAdamsProject330'
+➜ Explicit dependency on target 'STB_IMAGE' in project 'SheraAdamsProject330'
+➜ Explicit dependency on target 'sa__game' in project 'SheraAdamsProject330'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'SheraAdamsProject330'
+Target 'sa__game' in project 'SheraAdamsProject330'
+➜ Explicit dependency on target 'GLAD' in project 'SheraAdamsProject330'
+➜ Explicit dependency on target 'STB_IMAGE' in project 'SheraAdamsProject330'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'SheraAdamsProject330'
+Target 'STB_IMAGE' in project 'SheraAdamsProject330'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'SheraAdamsProject330'
+Target 'GLAD' in project 'SheraAdamsProject330'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'SheraAdamsProject330'
+Target 'ZERO_CHECK' in project 'SheraAdamsProject330' (no dependencies)

@@ -1,0 +1,5 @@
+/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/CMakeFiles/STB_IMAGE.dir
+/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/CMakeFiles/GLAD.dir
+/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/CMakeFiles/sa__game.dir
+/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/CMakeFiles/ALL_BUILD.dir
+/Users/s.adams/Documents/GitHub/Space-Shooter-Game copy/Cross Platform Game/space shooter game/build/CMakeFiles/ZERO_CHECK.dir
