@@ -15,6 +15,9 @@ The enemy spaceship pattern can be changed with the UP and DOWN keys. The spaces
   <img src="https://user-images.githubusercontent.com/110789514/216853127-afb3bd9a-f72f-44e1-8d86-89718bf26ca4.gif" alt="spaceshooter_AdobeExpress">
 </p>
 
+Update: added text to count down the percentage and fraction of life left
+![image](https://github.com/user-attachments/assets/43ef7cf4-33de-4417-b2bd-8edcbc799dc3)
+
 ## Parallax Scrolling Effects
 We can accomplish the parallax scrolling background effect that gives the illusion of horizontal movement with the following code 
 
