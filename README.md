@@ -206,7 +206,7 @@ Here is a Photoshop tutorial where I design the [spaceships and other game asset
 
 ## XCode Usage
 
-1. Open a terminal in the project directory and run the code to remove the old build folder and generate a new one with the Xcode project file. 
+1. Open a terminal in the project directory (folder named: space shooter game) and run the code to remove the old build folder and generate a new one with the Xcode project file. Note: This also must be done anytime the Xcode SDK is updated. 
 
 ```bash
 rm -rf build 
